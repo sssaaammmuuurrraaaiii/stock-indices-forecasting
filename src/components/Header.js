@@ -1,12 +1,13 @@
 import React from "react";
-import "./../styles/Header.css";
-
+import "./../styles/Header.scss";
 
 function Header() {
     return (
-        <div className="Header">
-            <h1>Прогнозирование фондовых индексов</h1>
-        </div>
+        <header className="Header">
+            <div className="Header__content">
+                <h1 className="NoSelect">Прогнозирование фондовых индексов</h1>
+            </div>
+        </header>
     )
 }
 
