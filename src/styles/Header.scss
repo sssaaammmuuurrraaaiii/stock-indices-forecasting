@@ -3,8 +3,8 @@
 .Header {
   background-color: rgb(65,136,210);
   width: 100%;
-  height: 75px;
-  margin: 0;
+  height: 55px;
+  margin: 0 auto;
   padding: 0;
   top: 0px;
   left: 0px;
@@ -13,14 +13,10 @@
   flex-flow: row wrap;
   box-shadow: 0 0 0 2px rgb(0,0,0);
 
-  @include breakpoint(md) {
-    padding: 0 3rem;
-  }
-  transition: 0.3s ease all;
-
   &__content {
     overflow: hidden;
     color: rgb(255,255,255);
+    font-size: 14px;
     font-family: $fontFamily_Poppins;
     margin: 0 auto;
     max-width: 1920px;
